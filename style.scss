@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//PIXEL px - Absoluta
+// Não vai mudar 
+.primeiraSessao{
+// borda 3 valores
+border: solid blue 4px;
+// aninhamento, organiar estilos das tags de acordo com a organização hereditária
+// apenas a div que está dentro da primeira-sessão vao aparecer e receber esse estilo
+    div{
+width: 200px;
+background-color: rgb(247, 132, 18);
+height: 200px;
+    }
+
+    // um pixel é exatamente um ponto na tela podemos usalas para imagens pedding bordas
+
+
+}
